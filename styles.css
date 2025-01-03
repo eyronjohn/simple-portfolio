@@ -1,0 +1,10 @@
+body{
+    background-color: #D9EAFD;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+div {
+    background-color: #F8FAFC;
+    margin: 16px;
+    padding: 16px;
+}
