@@ -3,42 +3,107 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio Website</title>
+    <title>Simple Portfolio</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <main>
-        <div class="menu-container">
-            <div class="menu"></div>
-            <div class="links">
-                <div class="about">About</div>
-                <div class="educ">Education</div>
-                <div class="skills">Skills</div>
+        <div class="header-container">
+            <nav>
+                <ul>
+                    <li><a href="#"></a>About</li>
+                    <li><a href="#"></a>Education</li>
+                    <li><a href="#"></a>Skills</li>
+                    <li><a href="#"></a>Contact</li>
+                </ul>
+            </nav>
+
+            <div class="header-info">
+
+                <div class="text">
+                    <h1 class="main-title">Hi, I'm Aaron</h1>
+                    <p class="dream-job">Aspring Full Stack Developer and Designer</p>
+    
+                    <!-- <button>Buy Me a Coffee</button> -->
+                    <div class="img-links">
+                        <a href="https://github.com/eyronjohn" target="_blank"><img src="./images/github.png" alt="GitHub Profile"></a>
+                        <a href="https://www.linkedin.com/in/aaron-john-bitara/" target="_blank"><img src="./images/linkedin.png" alt="Linkedin Profile"></a>
+                        <a href="https://www.facebook.com/bitara.aaron/" target="_blank"><img src="./images/facebook.png" alt="Facebook Profile"></a>
+                    </div>
+                </div>
             </div>
         </div>
 
-        <!--
-                <div>
-            
+        <div class="about-container">
+             <div class="box-1">
+                <img src="./images/profile2.jpg">
+             </div>
+             <div class="box-2">
+                <h1 class="about-info">About</h1>
+                <p>Hi there, my name is Aaron John Bitara. A student at Bulacan State University, Main Campus.</p>
+                <p>IT is my passion, since high-school I already know that I will take this path in college.</p>
+                <p>Currently, I am studying Bachelor of Science in Information Technology.</p>
+                <p>I grew up in Olongapo City, Zambales. </p>
+                <p>Interests: Front-end Developement and Cloud Computing.</p>
+             </div>
         </div>
-        -->
 
-        <div class="header-container">
-            <p class="header">Hi there, I'm Aaron John. A Sophomore student at Bulacan State University.</p>
+        <div class="educ-container">
+            <h1>Education</h1>
+            <div class="educs">
+                <div class="educ-img">
+                    <img src="./images/bulsu.png">
+                </div>
+                <div class="educ-1">
+                    <h2>Bulacan State University</h2>
+                    <div class="educ-text">
+                        <p>August 2022 - Present</p>
+                        <h3>Bachelor of Science in Information Technology</h3>
+                        <p>Skills: DSA, OOP, Network Configuration</p>
+                    </div>
+                </div>
+                <div class="line-separator">
+                </div>
+                <div class="educ-img2">
+                    <img src="./images/columban1.png">
+                </div>
+
+                <div class="educ-2"> 
+                    <h2>Columban College Inc.</h2>
+                    <div class="educ-text">
+                        <p>August 2020 - August 2022</p>
+                        <h3>Science, Technology, Engineering, Mathematics</h3>
+                        <p>Skills: HTML, CSS, Research</p>
+                    </div>
+                </div>
+            </div>
         </div>
 
-        <!--
-                <div>
-            <h2>Skills:</h2>
-            <ul>
-                <li>Web Development</li>
-                <li>Java Programming</li>
-                <li>Network Configurations</li>
-                <li>Linux Administration</li>
-            </ul>
-        </div>
-        -->
+        <div class="skills-container"> 
+            <h1>Skills</h1>
 
+        </div>
+
+        <!-- 
+        name
+        email
+        subject
+        how can i help
+        submit button -->
+
+        <div class="contact-form">
+            <div class="form-bg">
+                <form>
+                    <h1>Contact Me</h1>
+                    <input type="text" name="" id="" placeholder="Name">
+                    <input type="text" name="" id="" placeholder="Email">
+                    <input type="text" name="" id="" placeholder="Subject">
+                    <textarea placeholder="How can I help you?" rows="10"></textarea>
+                    <input type="submit" value="Submit">
+                </form>
+            </div>
+        </div>
     </main>
+    <!-- <footer></footer> -->
 </body>
 </html>
