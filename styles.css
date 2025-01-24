@@ -261,7 +261,14 @@ input[type="submit"]{
     border-radius: 25px;
     font-size: 18px;
     color: white;
+    font-weight: bold;
     background-color: #D84040;
+    /* transition: width; */
+}
+
+input[type="submit"]:hover{
+    background-color: #fc2d45;
+    /* width: 250px;  */
 }
 
 input[type="text"]{
@@ -293,6 +300,114 @@ form h1{
 
 /* skills container */
 .skills-container{
+    display: flex;
+    flex-direction: column;
     height: 650px;
     background-color: #EEEEEE;
+    padding-left: 15%;
+    padding-top: 5%;
+}   
+
+.skills-container h1{
+    font-size: 40px;
+    margin-bottom: 1.5%;
+}
+
+.front-end{
+    display: flex;
+    flex-direction: column;
+    height: 200px;
+    width: 80%;
+    padding-top: 2%;
+    border-radius: 15px;
+    background-color: yellowgreen;
+}
+
+.front-end h2{
+    font-size: 24px;
+    font-family: sans-serif;
+    padding-left: 2%;
+}
+
+.tools h2{
+    font-size: 24px;
+    font-family: sans-serif;
+    padding-left: 2%;
+}
+
+
+.skills1-section{
+    display: flex;
+    flex-direction: column;
+    background-color: #d2d2d2;
+    width: 90%;
+    height: 75%;
+    margin-left: 4%;
+    margin-top: 1%;
+    border-radius: 10px;
+}
+
+.skills1{
+    display: flex;
+    /* background-color: rgb(229, 229, 229); */
+    width: 150px;
+    height: 90%;
+    margin-top: 1%;
+    margin-left: 1%;
+    border-radius: 12px;
+    gap: 2rem;
+}
+
+.skills1 img{
+    width: 90%;
+    height: 90%;
+    padding-top: 5%;
+    padding-left: 2%;
+    padding-right: 2%;
+    background-color: #e2e2e2;
+    border-radius: 14px;
+}
+
+.tools{
+    display: flex;
+    flex-direction: column;
+    height: 200px;
+    width: 80%;
+    padding-top: 2%;
+    margin-top: 2%;
+    border-radius: 15px;
+    background-color: yellowgreen;
+}
+
+.tools-section{
+    display: flex;
+    flex-direction: column;
+    background-color: #D84040;
+    width: 90%;
+    height: 75%;
+    margin-left: 4%;
+    margin-top: 1%;
+    border-radius: 10px;
+    margin-bottom: 2%;
+}
+
+.skills2{
+    display: flex;
+    /* background-color: rgb(229, 229, 229); */
+    width: 150px;
+    height: 90%;
+    margin-top: 1%;
+    margin-left: 1%;
+    border-radius: 12px;
+    gap: 2rem;
+}
+
+.skills2 img{
+    width: 90%;
+    height: 90%;
+    padding-top: 5%;
+    padding-left: 2%;
+    padding-right: 2%;
+    background-color: #e2e2e2;
+    border-radius: 14px;
 }
